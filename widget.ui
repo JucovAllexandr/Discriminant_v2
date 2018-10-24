@@ -26,7 +26,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_a"/>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_a">
+         <property name="minimum">
+          <double>-99999.990000000005239</double>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_2">
@@ -36,7 +43,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_b"/>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_b">
+         <property name="minimum">
+          <double>-99999.990000000005239</double>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_3">
@@ -46,7 +60,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_c"/>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_c">
+         <property name="minimum">
+          <double>-99999.990000000005239</double>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -67,7 +88,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_x1"/>
+        <widget class="QLineEdit" name="lineEdit_x1">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_6">
@@ -77,7 +102,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_x2"/>
+        <widget class="QLineEdit" name="lineEdit_x2">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_calc">

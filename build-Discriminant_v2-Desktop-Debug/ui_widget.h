@@ -66,6 +66,8 @@ public:
 
         doubleSpinBox_a = new QDoubleSpinBox(Widget);
         doubleSpinBox_a->setObjectName(QStringLiteral("doubleSpinBox_a"));
+        doubleSpinBox_a->setMinimum(-100000);
+        doubleSpinBox_a->setMaximum(100000);
 
         horizontalLayout->addWidget(doubleSpinBox_a);
 
@@ -76,6 +78,8 @@ public:
 
         doubleSpinBox_b = new QDoubleSpinBox(Widget);
         doubleSpinBox_b->setObjectName(QStringLiteral("doubleSpinBox_b"));
+        doubleSpinBox_b->setMinimum(-100000);
+        doubleSpinBox_b->setMaximum(100000);
 
         horizontalLayout->addWidget(doubleSpinBox_b);
 
@@ -86,6 +90,8 @@ public:
 
         doubleSpinBox_c = new QDoubleSpinBox(Widget);
         doubleSpinBox_c->setObjectName(QStringLiteral("doubleSpinBox_c"));
+        doubleSpinBox_c->setMinimum(-100000);
+        doubleSpinBox_c->setMaximum(100000);
 
         horizontalLayout->addWidget(doubleSpinBox_c);
 
@@ -107,6 +113,7 @@ public:
 
         lineEdit_x1 = new QLineEdit(Widget);
         lineEdit_x1->setObjectName(QStringLiteral("lineEdit_x1"));
+        lineEdit_x1->setReadOnly(true);
 
         horizontalLayout_4->addWidget(lineEdit_x1);
 
@@ -117,6 +124,7 @@ public:
 
         lineEdit_x2 = new QLineEdit(Widget);
         lineEdit_x2->setObjectName(QStringLiteral("lineEdit_x2"));
+        lineEdit_x2->setReadOnly(true);
 
         horizontalLayout_4->addWidget(lineEdit_x2);
 

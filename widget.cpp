@@ -12,3 +12,8 @@ Widget::~Widget()
 {
     delete ui;
 }
+
+void Widget::on_pushButton_calc_clicked()
+{
+
+}

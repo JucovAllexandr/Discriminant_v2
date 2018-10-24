@@ -2,7 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
-
+#include "discriminant.h"
 namespace Ui {
 class Widget;
 }
@@ -20,6 +20,7 @@ private slots:
 
 private:
     Ui::Widget *ui;
+    Discriminant discriminant;
 };
 
 #endif // WIDGET_H
